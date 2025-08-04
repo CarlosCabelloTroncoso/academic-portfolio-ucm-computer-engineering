@@ -25,16 +25,18 @@ Predecir las ventas futuras de los canales mayoristas y minoristas de la empresa
 
 ```bash
 pip install -r requirements.txt
+```
 
-2. Ejecutar el script
+2. Ejecutar el script:
+
+```
 python proyeccion_ventas.py
+```
 
-3. Se generarán automáticamente:
-
-Una imagen de la proyección
-Un archivo HTML con el gráfico incrustado
-Un archivo Excel con los resultados
-
+3. Se generaran automáticamente los siguientes archivos:
+- Una imagen de la proyección (`grafico_temp.png`)
+- Un archivo HTML con el gráfico incrustado (`grafico_proyeccion.html`)
+- Un archivo Excel con los resultados (`proyeccion_resultado.xlsx`)
 
 
 
